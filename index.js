@@ -1,42 +1,94 @@
-//let name = "Future Academy"
+//let a = 1;
+//let b = "2";
 
-//console.log(`Welcome to ${name} IT Center`);
-//console.log(typeof 1);
+//let str1 = 'Future';
+//let str2 = 'Academy';
 
-//console.log(true);
-//console.log(false);
-//---------------------------------------
-//null 
+//console.log(str1 + str2);
+//console.log(isNaN(a));
+//console.log(a + +b)
+//console.log(+b * a)
 
-//let a ;
-//let b = null
-//console.log(null == undefined);
-//console.log(null === undefined);
-//---------------------------------------
-//console.log(null + 1);
-//console.log(undefined + 1);
+//let a = "10";
+//let b = "10.3";
 
-//let a;
-//let b = null
-//console.log(a + 1);
-//console.log(b + 1);
+//console.log(Number(b));
+//console.log(Number.parseInt(b));
+//console.log(Number.parseFloat(b));
 
-//console.log(b === b);
-//console.log({b} === {b});
+//console.log(false == 0);
+//console.log(true == 1);
+//console.log(false == null);
+//console.log(false == undefined);
+//console.log(undefined == null);
 
-// Symbols
-//let a = Symbol("text");
-//let b = Symbol("text");
+//console.log(true == "0");
+//console.log(false == "0");
 
-//console.log(b === a);
-//console.log(b == a);
+//console.log(true == "1");
+//console.log(true == "a");
+//console.log(true == "2");
 
-// Object
+//let a = 1;
+//let b = "10";
 
- let ar = ["Michel","Jack?"]; //index
- let obj = {name: "Future",status: "IT Center"}; // key
- let func = ()=>{};
- function test (){
-   console.log(ar[0]);
-   console.log(obj.name);
-}
+//console.log(1 + (1 * 1)  /1);
+
+//let a = 1;
+//console.log(a++);
+//console.log(a);
+//console.log(++a);
+
+// Obrivations
+//let a = 50;
+
+//a = a + 10; //50+10=60
+//a *= 10 //60+10=70
+
+//console.log(a);
+
+// Comperision
+//let a = 10;
+//let b = 11;
+//let c = "11";
+
+//console.log(a > b);
+//console.log(a<b);
+//console.log(c<b);
+//console.log(c <= b);
+//console.log(c >= b);
+//console.log(c == b);
+//console.log(c === b);
+
+//let str1 = "A"
+//let str2 = "a"
+
+//console.log(str1 > str2);
+//console.log(str1 < str2);
+//console.log("str1" < "str2 ");
+
+// let a = 1;
+// let b = 1;
+// let check = true;
+
+//console.log(a == b);
+//console.log(a === b);
+//console.log(a != b);
+//console.log(check);
+//console.log(!check);
+
+// Logical Operations
+// ||OR
+// let ceo = true;
+// let admin = false;
+
+//console.log(ceo === true || admin === true);
+// console.log(true || false);
+// console.log(admin || ceo);
+
+//  && AND
+let id = true;
+let face = false;
+
+console.log(id === true && face === true);
+console.log(id && face);
